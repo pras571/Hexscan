@@ -42,6 +42,10 @@ Clone the repo.
 ```bash
 git clone https://github.com/pras571/Hexscan.git
 ```
+Give Executable permission.
+```bash
+      chmod +x hexscan.py
+```
 EXAMPLE Command.
 ```bash
 python3 hexscan.py 192.168.1.10 -p all -c 500 -t 0.5 --banners
