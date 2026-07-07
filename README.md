@@ -34,12 +34,20 @@ HexScan is a fast and lightweight network scanner designed for rapid port discov
 
 # 🎯How to used.
 
+Install python.
 ```bash
 pkg install python
+```
+Clone the repo.
+```bash
 git clone https://github.com/pras571/Hexscan.git
 ```
+EXAMPLE Command.
+```bash
+python3 hexscan.py 192.168.1.10 -p all -c 500 -t 0.5 --banners
+```
 
-# ✨ If you like my tool give me star.
-            THANK YOU❣️
+# ✨ If you like my tool give me star
+#            THANK YOU❣️.
 
 
