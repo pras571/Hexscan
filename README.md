@@ -14,30 +14,29 @@ HexScan is a fast and lightweight network scanner designed for rapid port discov
 ✔ Colorful CLI Output.      
 ✔ Cross-platform Support.    
 
- # 🖥️Run on any os.
+ # 🖥️Supported Platforms.
 ✔ Kali Linux.   
 ✔ parrot os.   
 ✔ Arch linux.    
 ✔ Termux.     
 
-# ⚙️Command explanation.
-Option        |  meaning 
-python3.      | Runs the program using Python 3 hexscan.py
-Hexscan.py    | Your HexScan script.
-192.168.1.10  | The target IP address to scan.
--p all        | Scan all TCP ports (1–65535).             
--c 500        | Use 500 concurrent threads/connections for faster scanning (if supported by your tool). Higher values                  |   increase speed but also CPU/network usage.          
--t 0.5        | Set the timeout to 0.5 seconds per connection attempt. Lower values make scans faster but may miss slow                |   responses.
---banners     | Attempt banner grabbing on open ports to identify services (for example, a web server might return                     |   Apache, nginx, or OpenSSH).
-_________________________________________________________________________________________________________________________      
+# ⚙️Command Explanation.
+
+| Option | Meaning |
+|--------|---------|
+| `python3` | Runs the program using Python 3 |
+| `hexscan.py` | Your HexScan script |
+| `192.168.1.10` | Target IP address |
+| `-p all` | Scan all ports (1–65535) |
+| `-c 500` | Use 500 concurrent workers |
+| `-t 0.5` | Set timeout to 0.5 seconds |
+| `--banners` | Grab service banners |
 
 # 🎯How to used.
 
-Install python.
-```pkg install python
-```
-Colne the repo.
- ```git clone https://github.com/pras571/Hexscan.git
+```bash
+pkg install python
+git clone https://github.com/pras571/Hexscan.git
 ```
 
 # ✨ If you like my tool give me star.
