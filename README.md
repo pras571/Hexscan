@@ -1,4 +1,4 @@
-# Hexscan.
+# 📌Hexscan.
 
 HexScan is a fast and lightweight network scanner designed for rapid port discovery and network reconnaissance. It uses optimized multi-threaded scanning to scan all ports in as little as 5–10 seconds on suitable networks and hardware. HexScan also provides accurate host detection, service identification, and clear, easy-to-read results, making it useful for security testing and network administration.
 
